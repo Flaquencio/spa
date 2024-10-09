@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+        .ucontenedor{
+            display: flex;
+        }
+
+        .contenedor1{
+            display: flex;
+        }
+
+        .contenedor2{
+            display: flex;
+        }
+
+        .contenedor3{
+            display: flex;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 style="text-align: center;">Spa para todos</h1>
+        </header>
+    </div>
+    
+    <div class="ucontenedor">
+        <div>
+            <a href="#Formulario"><li>Formulario</li></a>
+        </div>
+        <div>
+            <a href="inicio/promo.html"><li>Promociones y Precios</li></a>
+        </div>
+        <div>   
+            <a href="https://www.youtube.com/watch?v=caFQIoV9SUU" target="_blank"><li>Música para relajarse</li></a>
+        </div>
+    </div>
+
+    <div class="contenedor1">  
+        <div>
+            <h3>Masaje Deportivo</h3>
+            <img src="img/masaje deporivo.jpg" alt="Masaje deportivo" width="300px" height="300px">
+            
+        </div>
+        
+        <div>
+            <h3>Terapia para dolor de espalda</h3>
+            <img src="img/dolor de espalda.jpg" alt="Dolor de Espalda" width="300px" height="300px">    
+        </div>
+    </div>
+
+    <div class="contenedor2">
+        <div>
+            <h3>Masaje anti estres</h3>
+            <img src="img/masaje anti estres.jpg" alt="Masaje anti Estres" width="300px" height="300px">
+        </div>
+
+        <div>
+            <h3>Masaje con piedras</h3>
+            <img src="img/masaje con piedras.jpg" alt="Masaje con piedras" width="300px" height="300px">
+        </div>
+    </div>
+
+    <div class="contenedor3">
+        <div>
+            <h3>Limpieza Facial</h3>
+            <img src="img/limpieza facila.jpg" alt="Limpieza Facial" width="300px" height="300px">
+        </div>
+
+        <div>
+            <h3>Baño de Lodo</h3>
+            <img src="img/baño de lodo.jpg" alt="Baño de Lodo" width="300px" height="300px">
+        </div>
+    </div>
+
+    <section id="Formulario">
+        <div>
+            <h1>Formulario</h1>
+            <h3>Si estas interado Ingresa tus datos</h3>
+            <form action="" method="post">
+                <div>
+                    <label for="nombre">Ingrese su nombre</label>
+                    <input type="text" name="nombre" id="nombre " required>
+                </div>
+    
+                <div>
+                    <label for="Numero Telefonico">Ingrese su Numero de Telefono</label>
+                    <input type="number" name="Telefono" id="Telefono" required>
+                </div>
+    
+                <div>
+                    <label for="Sexo">Sexo</label><br>
+                    <input type="radio" name="sexo" value="m"> Masculino
+                    <input type="radio" name="sexo" value="f"> Femenino
+                </div>
+    
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
